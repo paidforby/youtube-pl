@@ -8,4 +8,4 @@ mkdir "$ARTIST"
 mkdir "$ARTIST/$ALBUM" 
 cd "$ARTIST/$ALBUM"
 
-youtube-dl -x --audio-format mp3 -o "%(index)s-%(title)s.%(ext)s" $LINK
+youtube-dl -x --audio-format mp3 -o "%(playlist_index)s-%(title)s.%(ext)s" $LINK
